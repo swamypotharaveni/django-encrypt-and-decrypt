@@ -15,6 +15,9 @@ Clone GitHub Project bash
 git clone https://github.com/swamypotharaveni/django-encrypt-and-decrypt.git
 cd python_project Install development dependencies,
 
+follow this documentation
+https://cryptography.io
+
 
 pip install -r requirements.txt
 Migrate Databases
@@ -39,5 +42,3 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER ='add your email id'
 EMAIL_HOST_PASSWORD =" add your password"
 
-follow this documentation
-https://cryptography.io
