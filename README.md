@@ -22,9 +22,14 @@ https://cryptography.io
 pip install -r requirements.txt
 Migrate Databases
 bash
+
+
 python manage.py makemigrations
 
+
 python manage.py migrate
+
+
 Run the web application locally,
 ```bash
 
@@ -40,5 +45,5 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER ='add your email id'
-EMAIL_HOST_PASSWORD =" add your password"
+EMAIL_HOST_PASSWORD =" add your app password"
 
